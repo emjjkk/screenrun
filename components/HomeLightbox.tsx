@@ -1,8 +1,8 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 
 import { useState, useEffect } from 'react';
-import { LuFlame, LuArrowRight, LuPlus, LuPlay } from 'react-icons/lu'
-import Image from 'next/image';
+import { LuFlame, LuArrowRight, LuPlay } from 'react-icons/lu'
 
 interface Movie {
     id: number;

@@ -1,5 +1,5 @@
 'use client'
-import { LuFlame, LuArrowRight, LuPlus, LuPlay, LuSearch, LuMenu } from 'react-icons/lu'
+import {LuSearch, LuMenu } from 'react-icons/lu'
 import { useState } from 'react';
 
 export default function Navbar(){
