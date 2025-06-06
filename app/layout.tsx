@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${rethink.className} antialiased bg-black`}
             style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, .96), rgb(0, 0, 0, .96)), url(https://image.tmdb.org/t/p/original/sNwYTanAyPlzuL5zNnI3T86G4IB.jpg)`,
+                backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, .96), rgb(0, 0, 0, .96)), url(https://media.themoviedb.org/t/p/original/dAXSflkUKRfpzK74kRaovfK09Kx.jpg)`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundAttachment: 'fixed'

@@ -12,11 +12,11 @@ export default function Navbar(){
                 <div className="hidden md:flex items-center w-1/3">
                     <img src="/screenrun.png" alt="Screenrun" className="w-6 h-auto mr-3" />
                     <nav className="flex items-center">
-                        <a href="/" className="mx-2 text-sm text-white">Home</a>
-                        <a href="/" className="mx-2 text-sm text-white">TV Shows</a>
-                        <a href="/" className="mx-2 text-sm text-white">Movies</a>
-                        <a href="/" className="mx-2 text-sm text-white">People</a>
-                        <a href="/" className="mx-2 text-sm text-white">News</a>
+                        <a href="#" className="mx-2 text-sm text-white">Home</a>
+                        <a href="#" className="mx-2 text-sm text-white">TV Shows</a>
+                        <a href="#" className="mx-2 text-sm text-white">Movies</a>
+                        <a href="#" className="mx-2 text-sm text-white">People</a>
+                        <a href="#" className="mx-2 text-sm text-white">News</a>
                     </nav>
                 </div>
                 
@@ -37,9 +37,9 @@ export default function Navbar(){
                 
                 {/* Desktop Right Side */}
                 <div className="hidden md:flex items-center w-1/3 justify-end">
-                    <a href="/" className="mx-2 text-sm text-white">Support</a>
-                    <a href="/" className="mx-2 text-sm text-white">Contribute</a>
-                    <a href="/" className="ml-2 mr-5 text-sm text-white">Login</a>
+                    <a href="#" className="mx-2 text-sm text-white">Support</a>
+                    <a href="#" className="mx-2 text-sm text-white">Contribute</a>
+                    <a href="#" className="ml-2 mr-5 text-sm text-white">Login</a>
                     <button className="px-2 py-1 bg-white rounded-lg">Create an account</button>
                 </div>
                 
@@ -51,14 +51,14 @@ export default function Navbar(){
                 {/* Mobile Menu */}
                 {isMenuOpen && (
                     <div className="md:hidden absolute top-[10dvh] left-0 w-full bg-black p-4 flex flex-col space-y-4 border-t border-gray-800">
-                        <a href="/" className="text-white">Home</a>
-                        <a href="/" className="text-white">TV Shows</a>
-                        <a href="/" className="text-white">Movies</a>
-                        <a href="/" className="text-white">People</a>
-                        <a href="/" className="text-white">News</a>
-                        <a href="/" className="text-white">Support</a>
-                        <a href="/" className="text-white">Contribute</a>
-                        <a href="/" className="text-white">Login</a>
+                        <a href="#" className="text-white">Home</a>
+                        <a href="#" className="text-white">TV Shows</a>
+                        <a href="#" className="text-white">Movies</a>
+                        <a href="#" className="text-white">People</a>
+                        <a href="#" className="text-white">News</a>
+                        <a href="#" className="text-white">Support</a>
+                        <a href="#" className="text-white">Contribute</a>
+                        <a href="#" className="text-white">Login</a>
                     </div>
                 )}
             </header>

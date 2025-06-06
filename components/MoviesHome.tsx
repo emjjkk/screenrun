@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { LuArrowLeft, LuArrowRight } from 'react-icons/lu';
-import Image from 'next/image';
 import Link from 'next/link';
 
 interface Movie {
