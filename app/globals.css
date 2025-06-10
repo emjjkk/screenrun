@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  transition: 1s;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

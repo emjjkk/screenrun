@@ -84,7 +84,7 @@ export default function TVShowsHome() {
                     {tvShows.map((show) => (
                         <div
                             key={show.id}
-                            className="flex-shrink-0 relative group transition-all duration-300 ease-in-out border border-slate-900"
+                            className="flex-shrink-0 relative group transition-all duration-500 ease-in-out border border-slate-900"
                         >
                             {/* Default state - Poster */}
                             <div className="w-48 h-72 rounded-lg overflow-hidden shadow-lg group-hover:hidden">
